@@ -1,0 +1,21 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 08:48:43.121	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 08:48:43.123	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 08:48:52.130	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 08:48:52.131	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 08:48:52.148	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 09:21:15.211	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 09:21:15.215	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 09:21:23.136	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 09:21:23.137	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 09:21:23.152	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 11:07:21.253	[34minfo[0m	/Users/aldge/www/cine/ops_server/api/v1/example/exa_breakpoint_continue.go:154	文件已上传到minio	{"url": "http://host.docker.internal:9000/video/dl/bb/dlBbImG6", "key": "dl/bb/dlBbImG6"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 11:07:21.257	[34minfo[0m	/Users/aldge/www/cine/ops_server/api/v1/example/exa_breakpoint_continue.go:161	本地文件已删除	{"filePath": "./fileDir/第005集  The Demon of Chaos [www.qu6.cc].mp4"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 11:07:21.259	[34minfo[0m	/Users/aldge/www/cine/ops_server/api/v1/example/exa_breakpoint_continue.go:184	cutter记录创建成功	{"videoID": "dlBbImG6"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:10:41.539	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:10:41.541	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:10:41.559	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:26:32.664	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:26:32.665	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:26:40.282	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:26:40.282	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-10 15:26:40.296	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success

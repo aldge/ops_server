@@ -1,0 +1,21 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 15:41:30.170	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 15:41:30.172	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:53:19.597	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:53:19.599	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:53:19.620	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:58:00.453	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:58:00.455	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:58:37.289	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:58:37.289	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 16:58:37.303	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:04.007	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:04.007	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:04.021	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:29.060	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:29.061	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:29.076	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:57.412	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:57.413	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:57.427	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:20:37.354	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:20:37.356	[34minfo[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:59	WEB服务已关闭

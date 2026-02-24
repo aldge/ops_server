@@ -1,0 +1,1356 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:28:10.869	[31merror[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:36	server启动失败	{"error": "listen tcp :8888: bind: address already in use"}
+github.com/flipped-aurora/gin-vue-admin/server/core.initServer.func1
+	/Users/aldge/www/cine/ops_server/core/server_run.go:36
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:38:29.078	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:38:30.017	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:50:31.309	[31merror[0m	/Users/aldge/www/cine/ops_server/middleware/error.go:45	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /video/publicVideo HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nAccept: application/json, text/plain, */*\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7\r\nConnection: close\r\nContent-Length: 24\r\nContent-Type: application/json\r\nCookie: organizationTheme=null; organizationLogo=https://cdn.casbin.org/img/casdoor-logo_1185x256.png; organizationFootHtml=; PHPSESSID=5ff3e92d1def71d7728e4e9d4e047543; clothes=white; user_id=3; user_name=sunwukong; group_id=2; group_name=%E9%BB%98%E8%AE%A4%E4%BC%9A%E5%91%98; user_check=774f1eaed7a50cb9b63591fe27772c50; user_portrait=%2Fstatic_new%2Fimages%2Ftouxiang.png; token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ik1vdmllIiwidHlwIjoiSldUIn0.eyJvd25lciI6Im1vdmllIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic3Vud3Vrb25nIiwiaWQiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9jZG4uY2FzYmluLm9yZy9pbWcvY2FzYmluLnN2ZyIsInRva2VuVHlwZSI6ImFjY2Vzcy10b2tlbiIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhZGRyZXNzIjp7ImZvcm1hdHRlZCI6IiIsInN0cmVldF9hZGRyZXNzIjoiIiwibG9jYWxpdHkiOiIiLCJyZWdpb24iOiIiLCJwb3N0YWxfY29kZSI6IiIsImNvdW50cnkiOiIifSwiYXpwIjoiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiLCJpc3MiOiJodHRwczovL2hvc3QuZG9ja2VyLmludGVybmFsOjcwNzAiLCJzdWIiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJhdWQiOlsiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiXSwiZXhwIjoxNzY4MDQ0MzcxLCJuYmYiOjE3Njc0Mzk1NzEsImlhdCI6MTc2NzQzOTU3MSwianRpIjoiYWRtaW4vMjM2NDlBMkQtMTgzOS00MDJGLUIxMDctNzc1OUM2RTJCNUU2In0.tczDnY8gZGCWQ0t05EAM3XLpkjZkmn9NrgSRFCvVsG3Jr05KY6jbwN9zsQM3p69XfPQWC8oYL_PnBpX5jOtPHS0x1o4vkSVQFxmDOAoJFFwoYfhgwO3Rt7opMqnpnb39GuVNQSUITHfsye6INNemkn-0hLexfCZtyWTtWIdOtylDNo32bsrkuZtMAx_vGuIkU16XtmSj4Lg8cXbHh-s1AfAzbwj1fcZeGDpXg3Ju3geKgX5-zDETWCw6isHkNEwjLpK9w_3KFNscP09-_HmxWPDitINrz0AFO4Z8J3G30l7BhQT4sc-CjRdAvmb5S5H22c4VbGpusRb2szURRjwtrQIp47na4Qka3S2NbPh0oFKHfkBQ6UpHpYEflhjT2nvuJCiwSMPCFvycSB-eeSOvXFmDAxQaY_BLukv6RHr18DCN4RiNb38BwLF0ia5kVJsiYvcFNSMllIOXF0Gw7A9Ka4xw7gbBKz2N6EZKd6T-6ISc_0wBOhRgjEzi3s3EDnczn5HzekZMX_D7HNbgBCqBhps2EzD3Npj2Uiqnl9hDHQyrSaeawLvYjpCdz7YI00PzkqZA_QwjjDUTAl3GQIPA5r4oisaFVX9Xep-fKkEwDuUJDqYnuCFA49dh5_xsJxlkRlczHQOG907E84peBKKRAG0EQSEcBu_HKABIBcx8CHI; closeclick=closeclick; casdoor_session_id=76271ad939dfe68642b8a1f9a7e12b1a; adminer_sid=18ffc1911484a44a502bfbcfb305078e; adminer_key=efdc5eea78cda115b655c053da579849; adminer_version=0; x-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nOrigin: http://localhost:9082\r\nReferer: http://localhost:9082/\r\nSec-Ch-Ua: \"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\r\nX-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nX-User-Id: 1\r\n\r\n", "stack": "goroutine 213 [running]:\nruntime/debug.Stack()\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/debug/stack.go:26 +0x64\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1()\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:48 +0x38c\npanic({0x1036a3a40?, 0x1049230f0?})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792 +0x124\ngithub.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken()\n\t/Users/aldge/www/cine/ops_server/utils/jwt.go:120 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo(0x1264a22800055108?, 0x14001c34100)\n\t/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232 +0xf0\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1(0x14001c34100)\n\t/Users/aldge/www/cine/ops_server/middleware/operation.go:93 +0x438\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6(0x14001c34100)\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30 +0x168\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5(0x14001c34100)\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69 +0x2b8\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0x14001c34100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4(0x14000f599b8?)\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59 +0x4c\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0x14001ac2680, 0x14001c34100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 +0x6c4\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0x14001ac2680, {0x1039a30b8, 0x1400026e0e0}, 0x14000c70000)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 +0x170\nnet/http.serverHandler.ServeHTTP({0x1039999a8?}, {0x1039a30b8?, 0x1400026e0e0?}, 0x6?)\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301 +0xbc\nnet/http.(*conn).serve(0x14001454000, {0x1039a7e68, 0x14001b72e10})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102 +0x52c\ncreated by net/http.(*Server).Serve in goroutine 51\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3454 +0x3d8\n"}
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1
+	/Users/aldge/www/cine/ops_server/middleware/error.go:45
+runtime.gopanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792
+runtime.panicmem
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:262
+runtime.sigpanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/signal_unix.go:925
+github.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken
+	/Users/aldge/www/cine/ops_server/utils/jwt.go:120
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:54:14.998	[31merror[0m	/Users/aldge/www/cine/ops_server/middleware/error.go:45	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /video/publicVideo HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nAccept: application/json, text/plain, */*\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7\r\nConnection: close\r\nContent-Length: 24\r\nContent-Type: application/json\r\nCookie: organizationTheme=null; organizationLogo=https://cdn.casbin.org/img/casdoor-logo_1185x256.png; organizationFootHtml=; PHPSESSID=5ff3e92d1def71d7728e4e9d4e047543; clothes=white; user_id=3; user_name=sunwukong; group_id=2; group_name=%E9%BB%98%E8%AE%A4%E4%BC%9A%E5%91%98; user_check=774f1eaed7a50cb9b63591fe27772c50; user_portrait=%2Fstatic_new%2Fimages%2Ftouxiang.png; token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ik1vdmllIiwidHlwIjoiSldUIn0.eyJvd25lciI6Im1vdmllIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic3Vud3Vrb25nIiwiaWQiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9jZG4uY2FzYmluLm9yZy9pbWcvY2FzYmluLnN2ZyIsInRva2VuVHlwZSI6ImFjY2Vzcy10b2tlbiIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhZGRyZXNzIjp7ImZvcm1hdHRlZCI6IiIsInN0cmVldF9hZGRyZXNzIjoiIiwibG9jYWxpdHkiOiIiLCJyZWdpb24iOiIiLCJwb3N0YWxfY29kZSI6IiIsImNvdW50cnkiOiIifSwiYXpwIjoiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiLCJpc3MiOiJodHRwczovL2hvc3QuZG9ja2VyLmludGVybmFsOjcwNzAiLCJzdWIiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJhdWQiOlsiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiXSwiZXhwIjoxNzY4MDQ0MzcxLCJuYmYiOjE3Njc0Mzk1NzEsImlhdCI6MTc2NzQzOTU3MSwianRpIjoiYWRtaW4vMjM2NDlBMkQtMTgzOS00MDJGLUIxMDctNzc1OUM2RTJCNUU2In0.tczDnY8gZGCWQ0t05EAM3XLpkjZkmn9NrgSRFCvVsG3Jr05KY6jbwN9zsQM3p69XfPQWC8oYL_PnBpX5jOtPHS0x1o4vkSVQFxmDOAoJFFwoYfhgwO3Rt7opMqnpnb39GuVNQSUITHfsye6INNemkn-0hLexfCZtyWTtWIdOtylDNo32bsrkuZtMAx_vGuIkU16XtmSj4Lg8cXbHh-s1AfAzbwj1fcZeGDpXg3Ju3geKgX5-zDETWCw6isHkNEwjLpK9w_3KFNscP09-_HmxWPDitINrz0AFO4Z8J3G30l7BhQT4sc-CjRdAvmb5S5H22c4VbGpusRb2szURRjwtrQIp47na4Qka3S2NbPh0oFKHfkBQ6UpHpYEflhjT2nvuJCiwSMPCFvycSB-eeSOvXFmDAxQaY_BLukv6RHr18DCN4RiNb38BwLF0ia5kVJsiYvcFNSMllIOXF0Gw7A9Ka4xw7gbBKz2N6EZKd6T-6ISc_0wBOhRgjEzi3s3EDnczn5HzekZMX_D7HNbgBCqBhps2EzD3Npj2Uiqnl9hDHQyrSaeawLvYjpCdz7YI00PzkqZA_QwjjDUTAl3GQIPA5r4oisaFVX9Xep-fKkEwDuUJDqYnuCFA49dh5_xsJxlkRlczHQOG907E84peBKKRAG0EQSEcBu_HKABIBcx8CHI; closeclick=closeclick; casdoor_session_id=76271ad939dfe68642b8a1f9a7e12b1a; adminer_sid=18ffc1911484a44a502bfbcfb305078e; adminer_key=efdc5eea78cda115b655c053da579849; adminer_version=0; x-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nOrigin: http://localhost:9082\r\nReferer: http://localhost:9082/\r\nSec-Ch-Ua: \"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\r\nX-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nX-User-Id: 1\r\n\r\n", "stack": "goroutine 197 [running]:\nruntime/debug.Stack()\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/debug/stack.go:26 +0x64\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1()\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:48 +0x38c\npanic({0x1036a3a40?, 0x1049230f0?})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792 +0x124\ngithub.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken()\n\t/Users/aldge/www/cine/ops_server/utils/jwt.go:120 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo(0x3b7e4d0800055108?, 0x14001c34300)\n\t/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232 +0xf0\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34300)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1(0x14001c34300)\n\t/Users/aldge/www/cine/ops_server/middleware/operation.go:93 +0x438\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34300)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6(0x14001c34300)\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30 +0x168\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34300)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5(0x14001c34300)\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69 +0x2b8\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0x14001c34300)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c34300)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4(0x3b7822e805341ca0?)\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59 +0x4c\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0x14001ac2680, 0x14001c34300)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 +0x6c4\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0x14001ac2680, {0x1039a30b8, 0x1400026e2a0}, 0x14000c70500)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 +0x170\nnet/http.serverHandler.ServeHTTP({0x1039999a8?}, {0x1039a30b8?, 0x1400026e2a0?}, 0x6?)\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301 +0xbc\nnet/http.(*conn).serve(0x14001454ab0, {0x1039a7e68, 0x14001b72e10})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102 +0x52c\ncreated by net/http.(*Server).Serve in goroutine 51\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3454 +0x3d8\n"}
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1
+	/Users/aldge/www/cine/ops_server/middleware/error.go:45
+runtime.gopanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792
+runtime.panicmem
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:262
+runtime.sigpanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/signal_unix.go:925
+github.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken
+	/Users/aldge/www/cine/ops_server/utils/jwt.go:120
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:54:35.908	[31merror[0m	/Users/aldge/www/cine/ops_server/middleware/error.go:45	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /video/publicVideo HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nAccept: application/json, text/plain, */*\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7\r\nConnection: close\r\nContent-Length: 24\r\nContent-Type: application/json\r\nCookie: organizationTheme=null; organizationLogo=https://cdn.casbin.org/img/casdoor-logo_1185x256.png; organizationFootHtml=; PHPSESSID=5ff3e92d1def71d7728e4e9d4e047543; clothes=white; user_id=3; user_name=sunwukong; group_id=2; group_name=%E9%BB%98%E8%AE%A4%E4%BC%9A%E5%91%98; user_check=774f1eaed7a50cb9b63591fe27772c50; user_portrait=%2Fstatic_new%2Fimages%2Ftouxiang.png; token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ik1vdmllIiwidHlwIjoiSldUIn0.eyJvd25lciI6Im1vdmllIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic3Vud3Vrb25nIiwiaWQiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9jZG4uY2FzYmluLm9yZy9pbWcvY2FzYmluLnN2ZyIsInRva2VuVHlwZSI6ImFjY2Vzcy10b2tlbiIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhZGRyZXNzIjp7ImZvcm1hdHRlZCI6IiIsInN0cmVldF9hZGRyZXNzIjoiIiwibG9jYWxpdHkiOiIiLCJyZWdpb24iOiIiLCJwb3N0YWxfY29kZSI6IiIsImNvdW50cnkiOiIifSwiYXpwIjoiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiLCJpc3MiOiJodHRwczovL2hvc3QuZG9ja2VyLmludGVybmFsOjcwNzAiLCJzdWIiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJhdWQiOlsiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiXSwiZXhwIjoxNzY4MDQ0MzcxLCJuYmYiOjE3Njc0Mzk1NzEsImlhdCI6MTc2NzQzOTU3MSwianRpIjoiYWRtaW4vMjM2NDlBMkQtMTgzOS00MDJGLUIxMDctNzc1OUM2RTJCNUU2In0.tczDnY8gZGCWQ0t05EAM3XLpkjZkmn9NrgSRFCvVsG3Jr05KY6jbwN9zsQM3p69XfPQWC8oYL_PnBpX5jOtPHS0x1o4vkSVQFxmDOAoJFFwoYfhgwO3Rt7opMqnpnb39GuVNQSUITHfsye6INNemkn-0hLexfCZtyWTtWIdOtylDNo32bsrkuZtMAx_vGuIkU16XtmSj4Lg8cXbHh-s1AfAzbwj1fcZeGDpXg3Ju3geKgX5-zDETWCw6isHkNEwjLpK9w_3KFNscP09-_HmxWPDitINrz0AFO4Z8J3G30l7BhQT4sc-CjRdAvmb5S5H22c4VbGpusRb2szURRjwtrQIp47na4Qka3S2NbPh0oFKHfkBQ6UpHpYEflhjT2nvuJCiwSMPCFvycSB-eeSOvXFmDAxQaY_BLukv6RHr18DCN4RiNb38BwLF0ia5kVJsiYvcFNSMllIOXF0Gw7A9Ka4xw7gbBKz2N6EZKd6T-6ISc_0wBOhRgjEzi3s3EDnczn5HzekZMX_D7HNbgBCqBhps2EzD3Npj2Uiqnl9hDHQyrSaeawLvYjpCdz7YI00PzkqZA_QwjjDUTAl3GQIPA5r4oisaFVX9Xep-fKkEwDuUJDqYnuCFA49dh5_xsJxlkRlczHQOG907E84peBKKRAG0EQSEcBu_HKABIBcx8CHI; closeclick=closeclick; casdoor_session_id=76271ad939dfe68642b8a1f9a7e12b1a; adminer_sid=18ffc1911484a44a502bfbcfb305078e; adminer_key=efdc5eea78cda115b655c053da579849; adminer_version=0; x-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nOrigin: http://localhost:9082\r\nReferer: http://localhost:9082/\r\nSec-Ch-Ua: \"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\r\nX-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nX-User-Id: 1\r\n\r\n", "stack": "goroutine 38 [running]:\nruntime/debug.Stack()\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/debug/stack.go:26 +0x64\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1()\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:48 +0x38c\npanic({0x10710ba40?, 0x10838b0f0?})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792 +0x124\ngithub.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken()\n\t/Users/aldge/www/cine/ops_server/utils/jwt.go:120 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo(0x36260b9800055108?, 0x14001b2a100)\n\t/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232 +0xf0\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001b2a100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1(0x14001b2a100)\n\t/Users/aldge/www/cine/ops_server/middleware/operation.go:93 +0x438\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001b2a100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6(0x14001b2a100)\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30 +0x168\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001b2a100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5(0x14001b2a100)\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69 +0x2b8\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0x14001b2a100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001b2a100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4(0x14001b379b8?)\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59 +0x4c\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0x14000e7b860, 0x14001b2a100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 +0x6c4\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0x14000e7b860, {0x10740b0b8, 0x14001b4c000}, 0x14000d5a640)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 +0x170\nnet/http.serverHandler.ServeHTTP({0x1074019a8?}, {0x10740b0b8?, 0x14001b4c000?}, 0x6?)\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301 +0xbc\nnet/http.(*conn).serve(0x14001b20090, {0x10740fe68, 0x14001b0e1e0})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102 +0x52c\ncreated by net/http.(*Server).Serve in goroutine 24\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3454 +0x3d8\n"}
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1
+	/Users/aldge/www/cine/ops_server/middleware/error.go:45
+runtime.gopanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792
+runtime.panicmem
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:262
+runtime.sigpanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/signal_unix.go:925
+github.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken
+	/Users/aldge/www/cine/ops_server/utils/jwt.go:120
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:54:45.679	[31merror[0m	/Users/aldge/www/cine/ops_server/middleware/error.go:45	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /video/publicVideo HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nAccept: application/json, text/plain, */*\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7\r\nConnection: close\r\nContent-Length: 24\r\nContent-Type: application/json\r\nCookie: organizationTheme=null; organizationLogo=https://cdn.casbin.org/img/casdoor-logo_1185x256.png; organizationFootHtml=; PHPSESSID=5ff3e92d1def71d7728e4e9d4e047543; clothes=white; user_id=3; user_name=sunwukong; group_id=2; group_name=%E9%BB%98%E8%AE%A4%E4%BC%9A%E5%91%98; user_check=774f1eaed7a50cb9b63591fe27772c50; user_portrait=%2Fstatic_new%2Fimages%2Ftouxiang.png; token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ik1vdmllIiwidHlwIjoiSldUIn0.eyJvd25lciI6Im1vdmllIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic3Vud3Vrb25nIiwiaWQiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9jZG4uY2FzYmluLm9yZy9pbWcvY2FzYmluLnN2ZyIsInRva2VuVHlwZSI6ImFjY2Vzcy10b2tlbiIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhZGRyZXNzIjp7ImZvcm1hdHRlZCI6IiIsInN0cmVldF9hZGRyZXNzIjoiIiwibG9jYWxpdHkiOiIiLCJyZWdpb24iOiIiLCJwb3N0YWxfY29kZSI6IiIsImNvdW50cnkiOiIifSwiYXpwIjoiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiLCJpc3MiOiJodHRwczovL2hvc3QuZG9ja2VyLmludGVybmFsOjcwNzAiLCJzdWIiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJhdWQiOlsiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiXSwiZXhwIjoxNzY4MDQ0MzcxLCJuYmYiOjE3Njc0Mzk1NzEsImlhdCI6MTc2NzQzOTU3MSwianRpIjoiYWRtaW4vMjM2NDlBMkQtMTgzOS00MDJGLUIxMDctNzc1OUM2RTJCNUU2In0.tczDnY8gZGCWQ0t05EAM3XLpkjZkmn9NrgSRFCvVsG3Jr05KY6jbwN9zsQM3p69XfPQWC8oYL_PnBpX5jOtPHS0x1o4vkSVQFxmDOAoJFFwoYfhgwO3Rt7opMqnpnb39GuVNQSUITHfsye6INNemkn-0hLexfCZtyWTtWIdOtylDNo32bsrkuZtMAx_vGuIkU16XtmSj4Lg8cXbHh-s1AfAzbwj1fcZeGDpXg3Ju3geKgX5-zDETWCw6isHkNEwjLpK9w_3KFNscP09-_HmxWPDitINrz0AFO4Z8J3G30l7BhQT4sc-CjRdAvmb5S5H22c4VbGpusRb2szURRjwtrQIp47na4Qka3S2NbPh0oFKHfkBQ6UpHpYEflhjT2nvuJCiwSMPCFvycSB-eeSOvXFmDAxQaY_BLukv6RHr18DCN4RiNb38BwLF0ia5kVJsiYvcFNSMllIOXF0Gw7A9Ka4xw7gbBKz2N6EZKd6T-6ISc_0wBOhRgjEzi3s3EDnczn5HzekZMX_D7HNbgBCqBhps2EzD3Npj2Uiqnl9hDHQyrSaeawLvYjpCdz7YI00PzkqZA_QwjjDUTAl3GQIPA5r4oisaFVX9Xep-fKkEwDuUJDqYnuCFA49dh5_xsJxlkRlczHQOG907E84peBKKRAG0EQSEcBu_HKABIBcx8CHI; closeclick=closeclick; casdoor_session_id=76271ad939dfe68642b8a1f9a7e12b1a; adminer_sid=18ffc1911484a44a502bfbcfb305078e; adminer_key=efdc5eea78cda115b655c053da579849; adminer_version=0; x-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nOrigin: http://localhost:9082\r\nReferer: http://localhost:9082/\r\nSec-Ch-Ua: \"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\r\nX-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nX-User-Id: 1\r\n\r\n", "stack": "goroutine 56 [running]:\nruntime/debug.Stack()\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/debug/stack.go:26 +0x64\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1()\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:48 +0x38c\npanic({0x10710ba40?, 0x10838b0f0?})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792 +0x124\ngithub.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken()\n\t/Users/aldge/www/cine/ops_server/utils/jwt.go:120 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo(0x287c364800feb108?, 0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232 +0xf0\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1(0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/middleware/operation.go:93 +0x438\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6(0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30 +0x168\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5(0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69 +0x2b8\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4(0x287573d008da9ca0?)\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59 +0x4c\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0x14000e7b860, 0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 +0x6c4\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0x14000e7b860, {0x10740b0b8, 0x14001b4c460}, 0x14000d0f540)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 +0x170\nnet/http.serverHandler.ServeHTTP({0x1074019a8?}, {0x10740b0b8?, 0x14001b4c460?}, 0x6?)\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301 +0xbc\nnet/http.(*conn).serve(0x14001b7ccf0, {0x10740fe68, 0x14001b0e1e0})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102 +0x52c\ncreated by net/http.(*Server).Serve in goroutine 24\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3454 +0x3d8\n"}
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1
+	/Users/aldge/www/cine/ops_server/middleware/error.go:45
+runtime.gopanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792
+runtime.panicmem
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:262
+runtime.sigpanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/signal_unix.go:925
+github.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken
+	/Users/aldge/www/cine/ops_server/utils/jwt.go:120
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 12:57:07.352	[31merror[0m	/Users/aldge/www/cine/ops_server/middleware/error.go:45	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /video/publicVideo HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nAccept: application/json, text/plain, */*\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7\r\nConnection: close\r\nContent-Length: 24\r\nContent-Type: application/json\r\nCookie: organizationTheme=null; organizationLogo=https://cdn.casbin.org/img/casdoor-logo_1185x256.png; organizationFootHtml=; PHPSESSID=5ff3e92d1def71d7728e4e9d4e047543; clothes=white; user_id=3; user_name=sunwukong; group_id=2; group_name=%E9%BB%98%E8%AE%A4%E4%BC%9A%E5%91%98; user_check=774f1eaed7a50cb9b63591fe27772c50; user_portrait=%2Fstatic_new%2Fimages%2Ftouxiang.png; token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ik1vdmllIiwidHlwIjoiSldUIn0.eyJvd25lciI6Im1vdmllIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic3Vud3Vrb25nIiwiaWQiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9jZG4uY2FzYmluLm9yZy9pbWcvY2FzYmluLnN2ZyIsInRva2VuVHlwZSI6ImFjY2Vzcy10b2tlbiIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhZGRyZXNzIjp7ImZvcm1hdHRlZCI6IiIsInN0cmVldF9hZGRyZXNzIjoiIiwibG9jYWxpdHkiOiIiLCJyZWdpb24iOiIiLCJwb3N0YWxfY29kZSI6IiIsImNvdW50cnkiOiIifSwiYXpwIjoiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiLCJpc3MiOiJodHRwczovL2hvc3QuZG9ja2VyLmludGVybmFsOjcwNzAiLCJzdWIiOiIxNzUyMDRiNi05NDU5LTRjNzAtODY1MS05YWI3ZThlMGI3OTQiLCJhdWQiOlsiYTBlOGY3NWU5NWMzYmY2ZmNjYjgiXSwiZXhwIjoxNzY4MDQ0MzcxLCJuYmYiOjE3Njc0Mzk1NzEsImlhdCI6MTc2NzQzOTU3MSwianRpIjoiYWRtaW4vMjM2NDlBMkQtMTgzOS00MDJGLUIxMDctNzc1OUM2RTJCNUU2In0.tczDnY8gZGCWQ0t05EAM3XLpkjZkmn9NrgSRFCvVsG3Jr05KY6jbwN9zsQM3p69XfPQWC8oYL_PnBpX5jOtPHS0x1o4vkSVQFxmDOAoJFFwoYfhgwO3Rt7opMqnpnb39GuVNQSUITHfsye6INNemkn-0hLexfCZtyWTtWIdOtylDNo32bsrkuZtMAx_vGuIkU16XtmSj4Lg8cXbHh-s1AfAzbwj1fcZeGDpXg3Ju3geKgX5-zDETWCw6isHkNEwjLpK9w_3KFNscP09-_HmxWPDitINrz0AFO4Z8J3G30l7BhQT4sc-CjRdAvmb5S5H22c4VbGpusRb2szURRjwtrQIp47na4Qka3S2NbPh0oFKHfkBQ6UpHpYEflhjT2nvuJCiwSMPCFvycSB-eeSOvXFmDAxQaY_BLukv6RHr18DCN4RiNb38BwLF0ia5kVJsiYvcFNSMllIOXF0Gw7A9Ka4xw7gbBKz2N6EZKd6T-6ISc_0wBOhRgjEzi3s3EDnczn5HzekZMX_D7HNbgBCqBhps2EzD3Npj2Uiqnl9hDHQyrSaeawLvYjpCdz7YI00PzkqZA_QwjjDUTAl3GQIPA5r4oisaFVX9Xep-fKkEwDuUJDqYnuCFA49dh5_xsJxlkRlczHQOG907E84peBKKRAG0EQSEcBu_HKABIBcx8CHI; closeclick=closeclick; casdoor_session_id=76271ad939dfe68642b8a1f9a7e12b1a; adminer_sid=18ffc1911484a44a502bfbcfb305078e; adminer_key=efdc5eea78cda115b655c053da579849; adminer_version=0; x-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nOrigin: http://localhost:9082\r\nReferer: http://localhost:9082/\r\nSec-Ch-Ua: \"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\r\nX-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiNzcwN2I0ZGItOWFjYS00YTIwLWI3Y2MtN2E4Mzg2ODc5YmM5IiwiSUQiOjEsIlVzZXJuYW1lIjoiYWRtaW4iLCJOaWNrTmFtZSI6Ik1yLuWlh-a3vCIsIkF1dGhvcml0eUlkIjo4ODgsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc2ODEyNDU3MiwibmJmIjoxNzY3NTE5NzcyfQ.Z8XNcjWef-3LcqLjya5-imbYpAUobNLTbZCx8NJJGXo\r\nX-User-Id: 1\r\n\r\n", "stack": "goroutine 46 [running]:\nruntime/debug.Stack()\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/debug/stack.go:26 +0x64\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1()\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:48 +0x38c\npanic({0x10710ba40?, 0x10838b0f0?})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792 +0x124\ngithub.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken()\n\t/Users/aldge/www/cine/ops_server/utils/jwt.go:120 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo(0x1506109800feb108?, 0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232 +0xf0\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1(0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/middleware/operation.go:93 +0x438\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6(0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30 +0x168\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5(0x14001c64100)\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69 +0x2b8\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 +0x3c\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4(0x14000184808?)\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59 +0x4c\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0x14000e7b860, 0x14001c64100)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 +0x6c4\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0x14000e7b860, {0x10740b0b8, 0x14001b4c000}, 0x14000cb43c0)\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 +0x170\nnet/http.serverHandler.ServeHTTP({0x1074019a8?}, {0x10740b0b8?, 0x14001b4c000?}, 0x6?)\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301 +0xbc\nnet/http.(*conn).serve(0x14000c839e0, {0x10740fe68, 0x14001b0e1e0})\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102 +0x52c\ncreated by net/http.(*Server).Serve in goroutine 24\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3454 +0x3d8\n"}
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4.1
+	/Users/aldge/www/cine/ops_server/middleware/error.go:45
+runtime.gopanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:792
+runtime.panicmem
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/panic.go:262
+runtime.sigpanic
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/signal_unix.go:925
+github.com/flipped-aurora/gin-vue-admin/server/utils.GetAccessToken
+	/Users/aldge/www/cine/ops_server/utils/jwt.go:120
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:232
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:07:03.391	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:326	adapter接口返回业务错误	{"code": 1000, "message": "invalid app"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:326
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:27:51.719	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:347	adapter接口返回业务错误	{"code": 1001, "message": "参数绑定失败"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:347
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:32:41.231	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:374	adapter接口返回业务错误	{"code": 1001, "message": "参数绑定失败"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:374
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:39:19.623	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:374	adapter接口返回业务错误	{"code": 1001, "message": "参数绑定失败"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:374
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:39:54.039	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:374	adapter接口返回业务错误	{"code": 1001, "message": "参数绑定失败"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:374
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:58:53.636	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:365	解析adapter接口响应失败!	{"error": "invalid character '<' looking for beginning of value", "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"theme-color\" content=\"#000000\"/><meta name=\"description\" content=\"Casdoor - An Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML and CAS\"/><link rel=\"apple-touch-icon\" href=\"https://cdn.casbin.org/img/favicon.png\"/><link rel=\"manifest\" href=\"https://cdn.casbin.org/site/casdoor/manifest.json\"/><title>Casdoor</title><script defer=\"defer\" src=\"/static/js/main.bfb9c713.js\"></script><link href=\"/static/css/main.f35879a1.css\" rel=\"stylesheet\"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root\"></div></body></html>"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:365
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:59:09.213	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:365	解析adapter接口响应失败!	{"error": "invalid character '<' looking for beginning of value", "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"theme-color\" content=\"#000000\"/><meta name=\"description\" content=\"Casdoor - An Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML and CAS\"/><link rel=\"apple-touch-icon\" href=\"https://cdn.casbin.org/img/favicon.png\"/><link rel=\"manifest\" href=\"https://cdn.casbin.org/site/casdoor/manifest.json\"/><title>Casdoor</title><script defer=\"defer\" src=\"/static/js/main.bfb9c713.js\"></script><link href=\"/static/css/main.f35879a1.css\" rel=\"stylesheet\"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root\"></div></body></html>"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:365
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 15:59:19.950	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:365	解析adapter接口响应失败!	{"error": "invalid character '<' looking for beginning of value", "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"theme-color\" content=\"#000000\"/><meta name=\"description\" content=\"Casdoor - An Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML and CAS\"/><link rel=\"apple-touch-icon\" href=\"https://cdn.casbin.org/img/favicon.png\"/><link rel=\"manifest\" href=\"https://cdn.casbin.org/site/casdoor/manifest.json\"/><title>Casdoor</title><script defer=\"defer\" src=\"/static/js/main.bfb9c713.js\"></script><link href=\"/static/css/main.f35879a1.css\" rel=\"stylesheet\"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root\"></div></body></html>"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:365
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 16:12:07.986	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:331	调用adapter接口失败!	{"error": "Post \"http://host.docker.internal:8088/provide/save?app=dev\": dial tcp 127.0.0.1:8088: connect: connection refused"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*VideoApi).PublicVideo
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/video.go:331
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/router/cinema.(*VideoRouter).InitVideoRouter.OperationRecord.func1
+	/Users/aldge/www/cine/ops_server/middleware/operation.go:93
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 17:58:34.921	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 17:59:49.646	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:00:04.736	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:16:20.719	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:19:51.110	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:19:56.848	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:34:34.764	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:38	创建失败!	{"error": "读取模版文件夹[/Users/aldge/www/cine/gin-vue-admin/server/resource/package]失败!: open /Users/aldge/www/cine/gin-vue-admin/server/resource/package: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/resource/package: no such file or directory\n读取模版文件夹[/Users/aldge/www/cine/gin-vue-admin/server/resource/package]失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).templates\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:311\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).Create.func1\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:57\ngorm.io/gorm.(*DB).Transaction\n\t/Users/aldge/go/pkg/mod/gorm.io/gorm@v1.25.12/finisher_api.go:651\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:51\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:36\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:38
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:34:34.780	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:34:41.590	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:36:28.243	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:36:52.273	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:38	创建失败!	{"error": "读取模版文件夹[/Users/aldge/www/cine/gin-vue-admin/server/resource/package]失败!: open /Users/aldge/www/cine/gin-vue-admin/server/resource/package: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/resource/package: no such file or directory\n读取模版文件夹[/Users/aldge/www/cine/gin-vue-admin/server/resource/package]失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).templates\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:311\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).Create.func1\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:57\ngorm.io/gorm.(*DB).Transaction\n\t/Users/aldge/go/pkg/mod/gorm.io/gorm@v1.25.12/finisher_api.go:651\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:51\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:36\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:38
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:36:52.296	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/gin-vue-admin/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:39:05.656	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:43:17.083	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:43:48.876	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 18:45:22.107	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 19:00:02.045	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 19:00:49.918	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 19:01:13.202	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 19:02:11.943	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 19:02:25.061	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 19:03:00.284	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 19:05:57.246	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 21:10:00.303	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/amateur.go:161	获取失败!	{"error": "Error 1146 (42S02): Table 'cine_cms.cine_amateur' doesn't exist"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*AmateurApi).GetAmateurList
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/amateur.go:161
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 21:33:23.706	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/cinema/amateur.go:161	获取失败!	{"error": "Error 1146 (42S02): Table 'cine_cms.cine_amateur' doesn't exist"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/cinema.(*AmateurApi).GetAmateurList
+	/Users/aldge/www/cine/ops_server/api/v1/cinema/amateur.go:161
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 22:23:46.365	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77	获取失败!	{"error": "读取service文件夹失败!: open /Users/aldge/www/cine/server/service: no such file or directory", "errorVerbose": "open /Users/aldge/www/cine/server/service: no such file or directory\n读取service文件夹失败!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodePackage).All\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_package.go:142\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:75\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodePackageApi).All
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_package.go:77
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-05 22:32:49.027	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78	创建失败!	{"error": "已经创建过此数据结构,请勿重复创建!", "errorVerbose": "已经创建过此数据结构,请勿重复创建!\ngithub.com/flipped-aurora/gin-vue-admin/server/service/system.(*autoCodeTemplate).Create\n\t/Users/aldge/www/cine/ops_server/service/system/auto_code_template.go:71\ngithub.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create\n\t/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:76\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6\n\t/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5\n\t/Users/aldge/www/cine/ops_server/middleware/jwt.go:69\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4\n\t/Users/aldge/www/cine/ops_server/middleware/error.go:59\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589\nnet/http.serverHandler.ServeHTTP\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301\nnet/http.(*conn).serve\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102\nruntime.goexit\n\t/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/runtime/asm_arm64.s:1223"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/system.(*AutoCodeTemplateApi).Create
+	/Users/aldge/www/cine/ops_server/api/v1/system/auto_code_template.go:78
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102

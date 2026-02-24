@@ -1,0 +1,15 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:55:57.122	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:55:57.123	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:56:56.003	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:56:56.004	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/plugin.go:10	项目暂未初始化，无法安装插件，初始化后重启项目即可完成插件安装
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:56:56.004	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:58:02.831	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:58:02.831	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:58:18.375	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:58:18.375	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/plugin.go:10	项目暂未初始化，无法安装插件，初始化后重启项目即可完成插件安装
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 17:58:18.376	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/router.go:126	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 18:00:13.323	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 18:00:13.324	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 18:00:20.099	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 18:00:20.099	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-11 18:00:20.111	[34minfo[0m	/Users/aldge/www/cine/gin-vue-admin/server/initialize/router.go:126	router register success

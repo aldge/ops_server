@@ -1,0 +1,74 @@
+
+services:
+  ops_center:
+    # image: registry.gitlab.com/cinemae/ops_center
+    image: ops_center
+    container_name: ops_center
+    restart: always
+    ports:
+      - '9080:8080'
+    depends_on:
+      - ops_server
+    command: [ 'nginx-debug', '-g', 'daemon off;' ]
+    networks:
+      - shared-network
+    environment:
+      - SERVER_URL=http://ops_server:8888
+
+  ops_server:
+    # build:
+    #  dockerfile: ./Dockerfile
+    # image: registry.gitlab.com/cinemae/ops_server
+    image: ops_server
+    container_name: ops_server
+    restart: always
+    ports:
+      - '9079:8888'
+    links:
+      - mysql
+      - redis
+    networks:
+      - shared-network
+
+  mysql:
+    image: mysql:8.0.33       # 如果您是 arm64 架构：如 MacOS 的 M1，请修改镜像为 image: mysql/mysql-server:8.0.21
+    container_name: cine_mysql
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci #设置utf8字符集
+    restart: always
+    ports:
+      - "3306:3306"  # host物理直接映射端口为13306
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root' # root管理员用户密码
+      MYSQL_DATABASE: 'cine_cms' # 初始化启动时要创建的数据库的名称
+      MYSQL_USER: 'gva'
+      MYSQL_PASSWORD: 'Aa@6447985'
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "gva", "-pAa@6447985"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    volumes:
+      - ~/cine/mysql:/var/lib/mysql
+    networks:
+      - shared-network
+
+  redis:
+    image: redis:7.2.3
+    container_name: cine_redis # 容器名
+    restart: always
+    ports:
+      - '6379:6379'
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli ping | grep PONG || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    volumes:
+      - ~/cine/redis:/data
+    networks:
+      - shared-network
+
+networks:
+  shared-network:
+    external: true  # 使用已存在的外部网络
+    name: shared-network

@@ -1,0 +1,3 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-19 11:35:37.147	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-19 11:35:37.149	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:75	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-19 11:35:37.169	[34minfo[0m	/Users/aldge/www/cine/ops_server/initialize/router.go:126	router register success

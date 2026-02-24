@@ -1,0 +1,29 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2026-01-09 16:34:44.312	[31merror[0m	/Users/aldge/www/cine/ops_server/api/v1/example/exa_breakpoint_continue.go:174	创建cutter记录失败!	{"error": "Error 1364 (HY000): Field 'created_at' doesn't have a default value"}
+github.com/flipped-aurora/gin-vue-admin/server/api/v1/example.(*FileUploadAndDownloadApi).BreakpointContinueFinish
+	/Users/aldge/www/cine/ops_server/api/v1/example/exa_breakpoint_continue.go:174
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.CasbinHandler.func6
+	/Users/aldge/www/cine/ops_server/middleware/casbin_rbac.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.JWTAuth.func5
+	/Users/aldge/www/cine/ops_server/middleware/jwt.go:69
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/flipped-aurora/gin-vue-admin/server/initialize.Routers.GinRecovery.func4
+	/Users/aldge/www/cine/ops_server/middleware/error.go:59
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/aldge/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:3301
+net/http.(*conn).serve
+	/Users/aldge/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.11.darwin-arm64/src/net/http/server.go:2102

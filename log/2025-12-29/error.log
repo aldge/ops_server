@@ -1,0 +1,6 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:04.021	[31merror[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:36	server启动失败	{"error": "listen tcp :8888: bind: address already in use"}
+github.com/flipped-aurora/gin-vue-admin/server/core.initServer.func1
+	/Users/aldge/www/cine/ops_server/core/server_run.go:36
+[github.com/flipped-aurora/gin-vue-admin/server]2025-12-29 17:02:29.076	[31merror[0m	/Users/aldge/www/cine/ops_server/core/server_run.go:36	server启动失败	{"error": "listen tcp :8888: bind: address already in use"}
+github.com/flipped-aurora/gin-vue-admin/server/core.initServer.func1
+	/Users/aldge/www/cine/ops_server/core/server_run.go:36
