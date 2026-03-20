@@ -40,7 +40,6 @@ require (
 	github.com/tencentyun/cos-go-sdk-v5 v0.7.60
 	github.com/unrolled/secure v1.17.0
 	github.com/xuri/excelize/v2 v2.9.0
-	gitlab.com/cinemae/gopkg v0.0.0-20251229041458-5a36d321ce55
 	go.mongodb.org/mongo-driver v1.17.2
 	go.uber.org/automaxprocs v1.6.0
 	go.uber.org/zap v1.27.0
@@ -60,6 +59,7 @@ require (
 	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/KyleBanks/depth v1.2.1 // indirect
 	github.com/STARRY-S/zip v0.2.1 // indirect
+	github.com/aldge/gopkg v0.0.0-20260320083153-44b6ad162d25 // indirect
 	github.com/alex-ant/gomath v0.0.0-20160516115720-89013a210a82 // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect

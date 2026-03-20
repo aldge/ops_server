@@ -11,7 +11,7 @@ import (
 	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
 	jwt "github.com/golang-jwt/jwt/v5"
 
-	passport "gitlab.com/cinemae/gopkg/casdoor"
+	passport "github.com/aldge/gopkg/casdoor"
 )
 
 type JWT struct {
